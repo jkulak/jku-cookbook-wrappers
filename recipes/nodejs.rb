@@ -9,6 +9,15 @@ bash "install_nodejs" do
      not_if { ::File.exists?('/usr/bin/nodejs') }
 end
 
+# Install npm packages globally without sudo on macOS and Linux
+bash "install_nodejs" do
+     user "root"
+     cwd "/tmp"
+     code <<-EOH
+        wget -O- https://raw.githubusercontent.com/glenpike/npm-g_nosudo/master/npm-g-nosudo.sh | sh
+     EOH
+end
+
 # Install Node Version Manager
 bash "install_nvm" do
      user "root"
