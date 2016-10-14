@@ -1,10 +1,10 @@
 name             'jku-local'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Jakub Kułak'
+maintainer_email 'jakub.kulak@gmail.com'
 license          'All rights reserved'
-description      'Installs/Configures multipurpose'
+description      'Wrappers for most commonly used community cookbooks'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.1'
+version          '0.1.2'
 
 depends 'apache2', '~> 3.2.2'
 depends 'php', '~> 1.10.1'
