@@ -2,7 +2,10 @@
 
 This file is used to list changes made in each version of the multipurpose cookbook.
 
-## 0.1.2.
+## 0.1.3
+- Jakub Kułak - renamed the cookbook to show the proper purpose
+
+## 0.1.2
 - Jakub Kułak - Install Node.js v6
 - Jakub Kułak - Allow to install npm packages globally without sudo on macOS and Linux
 

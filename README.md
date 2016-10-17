@@ -1,6 +1,6 @@
-# jku-local Cookbook
+# jku-cookbook-wrappers Cookbook
 
-Multipurpose cookbook installing different servers for local development.
+Set of wrapper recipes for community cookbooks.
 
 ## Components
 
@@ -8,25 +8,6 @@ Multipurpose cookbook installing different servers for local development.
 * Apache/2.4.7 (Ubuntu)
 * PHP 5.5.9-1ubuntu4.11
 * MySQL 5.6.19-0ubuntu0.14.04.1
-
-## Reuqirements
-
-* Vagrant
-* Chef solo (best from ChefSDK)
-
-## Usage
-
-To run and use the environment:
-
-```shell
-git clone https://github.com/jkulak/griller-local-kitchen
-cd /griller-local-kitchen
-cp environments/local.json.example environments/local.json
-# optionally edit environments/local.json
-vagrant up
-```
-
-And your system is up and running and available at: 192.168.5.5
 
 # Component details
 

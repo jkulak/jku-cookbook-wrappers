@@ -1,4 +1,4 @@
-name             'jku-local'
+name             'jku-cookbook-wrappers'
 maintainer       'Jakub Kułak'
 maintainer_email 'jakub.kulak@gmail.com'
 license          'All rights reserved'
